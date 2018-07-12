@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/standard_margin"
+        android:background="@color/colorBitterSweetDark">
+        <ImageView
+            android:id="@+id/singleImage"
+            android:layout_width="@dimen/size_logo_small"
+            android:layout_height="@dimen/size_logo_small"
+            android:background="@color/colorBlack"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/space_s"
+            />
+
+
+        <TextView
+            android:id="@+id/textSingleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/standard_separator"
+            android:textSize="@dimen/space_m"
+            android:hint="alphabet"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:hint=""
+            android:layout_margin="8dp" />
+
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_background" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
